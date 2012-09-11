@@ -2,10 +2,10 @@
     VimCasts XBMC Addon
     -------------------
 
-    Watch episodes from http://vimcasts.org in XBMC.
+    Watch screencasts from http://vimcasts.org in XBMC.
 
     :copyright: (c) 2012 by Jonathan Beluch
-    :license: GPLv3, see LICENSE for more details.
+    :license: GPLv3, see LICENSE.txt for more details.
 '''
 import re
 import HTMLParser
