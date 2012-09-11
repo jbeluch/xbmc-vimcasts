@@ -61,7 +61,7 @@ def index():
     '''The main menu and only view for this plugin. Lists available episodes'''
     items = [{
         'label': '#%s %s' % (epi['episode_number'], epi['title']),
-        'path': epi['ogg']['url'],
+        'path': epi['quicktime']['url'],
         'thumbnail': epi['poster'],
         'info': {
             'plot': clean(epi['abstract'])
