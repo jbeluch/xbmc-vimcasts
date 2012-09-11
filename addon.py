@@ -22,7 +22,6 @@ PLUGIN_ID = 'plugin.video.vimcasts'
 plugin = Plugin(PLUGIN_NAME, PLUGIN_ID, __file__)
 
 
-@plugin.cache(ttl_hours=1)
 def get_json_feed():
     '''Loads the JSON feed for vimcasts.org.'''
     json_url = 'http://vimcasts.org/episodes.json?referrer=xbmc'
