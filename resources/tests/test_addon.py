@@ -45,7 +45,7 @@ class ITTests(unittest.TestCase):
         self.assertTrue(len(items) > 35)
         expected = {
             'info': {
-            'plot': u'Vim\u2019s list feature can be used to reveal hidden characters, such as tabstops and newlines. In this episode, I demonstrate how to customise the appearance of these characters by tweaking the listchars setting. I go on to show how to make these invisible characters blend in with your colortheme.\n'},
+            'plot': u'Vim\u2019s list feature can be used to reveal hidden characters, such as tabstops and newlines. In this episode, I demonstrate how to customise the appearance of these characters by tweaking the listchars setting. I go on to show how to make these invisible characters blend in with your colortheme.'},
              'is_playable': True,
              'label': u'#1 Show invisibles',
              'path': u'http://media.vimcasts.org/videos/1/show_invisibles.m4v',
